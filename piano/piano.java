@@ -122,7 +122,7 @@ public class piano{
 
 
     public static void beep() throws InterruptedException, UnsupportedAudioFileException, IOException, LineUnavailableException{
-        String filePath = "C:\\Users\\hariom\\OneDrive\\Desktop\\CS\\funprojects\\beep.wav";
+        String filePath = "C:\\Users\\hariom\\OneDrive\\Desktop\\CS\\funprojects\\piano\\beep.wav";
         AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File(filePath).getAbsoluteFile());
         Clip clip;
         
